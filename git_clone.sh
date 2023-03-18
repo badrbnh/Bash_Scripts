@@ -6,4 +6,4 @@ read -p "What's your username? : " username
 printf "\n"
 read -p "What's your repository name? : " repo_name
 printf "\n"
-git clone https://"${token}"@github.com/"${username}"/"${repo_name}".git
+git clone https://"$token"@github.com/"$username"/"$repo_name".git
